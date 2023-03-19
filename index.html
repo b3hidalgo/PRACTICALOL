@@ -1,54 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Ayuda a un peludo</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
 </head>
-<style>
-    h1 {text-align: center;}
-    h2 {text-align: center;}
-    p {text-align: center;}
-    div {text-align: center;}
-    a{text-align: center;}
-    </style>
 <body>
-    <div class = "grid-layout">
-        
-        <div class = "menu">
-                <div class = iniciobtn>
-                    Inicio
-                </div>
-                <div class = iniciobtn>
-                    Nosotros
-                </div>
-                <div class = iniciobtn>
-                    Perros
-                </div>
-                <div class = iniciobtn>
-                    Gatos
-                </div>
-                <div class = iniciobtn>
-                    Contacto
-                </div>
+    <header>
+        <div class="container">
+            <img src="img/logotransparente.png" alt="" class="logo">
+            <div class="nav">
+                <a href="#">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="#">Perros</a>
+                <a href="#">Gatos</a>
+                <a href="contacto.html">Contacto</a>       
+            </div>
+        </div>
+    </header>
+<!--TITULO Y PARRAFO-->
+    <section id="contenido">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+                <h2>Somos ayuda a un Peludo</span></h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore, exercitationem! Eius unde architecto perferendis adipisci? Dolor rem quidem nisi qui beatae impedit expedita perferendis tenetur assumenda dignissimos ipsam, minima aliquam!
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, vel recusandae. Culpa reiciendis at adipisci pariatur ex sint vitae quam labore amet aspernatur totam, neque repellendus accusantium voluptates temporibus eaque.
+                </p>
+            </div>
 
         </div>
-        
-                <div class = "contenido">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nemo omnis veritatis numquam doloribus harum iusto illum quaerat fuga distinctio quo ad in dicta ullam magnam, sequi blanditiis tempora velit.</p>
-                    <h2>Nuestros Integrantes</h2>
-                    <ul><li>Persona 1 - Cargo 1</li>
-                        <li>Persona 2 - Cargo 2</li>
-                        <li>Persona 3 - Cargo 3</li>
-                        <li>Persona 4 - Cargo 4</li>
-                    </ul>
-                    <h2>Nuestras secciones de ayuda:</h2>
-                    <img src="gatoshp1.png" width="200" alt="No pudo cargar"> <a href="http://" target="_blank" rel="noopener noreferrer">Gatos</a> <br>
-                    <img src="perroshp1.png" width="200" alt="No pudo cargar"> <a href="http://" target="_blank" rel="noopener noreferrer">Perros</a>
+    </section>
+<!--INTEGRANTES-->
+    <section id="integrantes">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+                <h3>Nuestros integrantes</h3>
+                <ul>
+                    <li>Persona 1 - Cargo 1</li>
+                    <li>Persona 2 - Cargo 2</li>
+                    <li>Persona 3 - Cargo 3</li>
+                    <li>Persona 4 - Cargo 4</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+<!--SECCIONES DE AYUDA-->
+    <section id="secciones-ayuda">
+        <div class="container">
+            <h2>Nuestras secciones de ayuda</h2>
+            <div class="articulos">  
+                <div class="carta1">
+                    <h3>Perros</h3>
+                    <button>Ver más</button>
                 </div>
-    </div>
+                <div class="carta2">
+                    <h3>Gatos</h3>
+                    <button>Ver más</button>
+                </div>     
+            </div>    
+        </div>
+    </section>
 
 </body>
 </html>

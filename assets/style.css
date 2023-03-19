@@ -1,0 +1,228 @@
+
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #CEEED9;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+h1{font-size: 3.5em;}
+h2{font-size: 4em; font-family: 'Bebas Neue', cursive;
+    text-shadow: rgba(0, 0, 0, 0.535) 0.1em 0.1em 0.2em}
+h3{font-size: 3.5em;}
+p{font-size: 1.25em;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #1B2552;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: #666AA3;
+}
+
+.container{
+    max-width: 1400px; ;
+    margin: auto;
+}
+
+header{
+    background-color: #519969;
+    position: fixed;
+    width: 100%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+header .logo{
+    max-width: 200px;
+    padding: 25px;
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px ;
+    
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: aliceblue;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+a:hover {
+    color: #f0a309;
+    
+    
+}
+
+
+
+
+#contenido .container{
+    text-align: center;
+    padding: 50px 12px;
+}
+
+#contenido h2{
+    color: #ffffff;
+    background-color: #519969;
+    border-radius: 15px;
+    text-align: center;
+}
+#integrantes {
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+
+
+
+#secciones-ayuda {
+    background-color:#519969;
+    color: white;
+    text-align: center;
+}
+
+#secciones-ayuda .container{
+    padding: 100px 12px;
+}
+
+#secciones-ayuda h2{
+    margin-top: 0;
+}
+
+#secciones-ayuda h3{
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+#secciones-ayuda .carta1{
+    background-image: url("/img/perroshp1.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 6em;
+    border-radius: 15px;
+    margin: 25px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    
+
+}
+
+#secciones-ayuda .carta2{
+    background-image: url("/img/gatoshp1.png");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-size: contain;
+    padding: 6em;
+    margin: 25px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+@media (min-width: 720px) {
+    header{
+        position: fixed;
+        width: 100%;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+        max-height: 54px;
+    }
+
+    header .nav {
+        flex-direction: row;
+        padding-bottom: 0;
+    }
+    
+    header .logo{
+        max-width: 90px;
+        padding: 0px;
+    }
+    
+    #contenido{
+        padding-top: 70px;
+
+
+    }
+
+    #contenido .img-container{
+        background-image: url("/img/logopeludo.png");
+        background-size: contain;
+        background-position: center center;
+        background-repeat: no-repeat;
+        width: 50%;
+    }
+
+    #contenido .texto {
+        width: 50%;
+        text-align: initial;
+        padding-left: 5em ;
+    }
+
+    #contenido .container{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+    #secciones-ayuda .carta1{
+        width: 50em;
+    }
+    #secciones-ayuda .carta2{
+        width: 50em;
+    }
+
+
+    #secciones-ayuda .articulos{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+#integrantes .img-container{
+    background-image: url("/img/vet.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 50%;
+}
+
+#integrantes .container {
+    display: flex;
+    flex-direction: column;
+}
+
+#integrantes .texto{
+    display: none;
+}
