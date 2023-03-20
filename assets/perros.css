@@ -1,22 +1,24 @@
 
-
 *{
     box-sizing: border-box;
 }
+
 body{
+    height: 100%; 
     background: #CEEED9;
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+
 h1{font-size: 3.5em;}
 h2{font-size: 4em; font-family: 'Bebas Neue', cursive;
     text-shadow: rgba(0, 0, 0, 0.535) 0.1em 0.1em 0.2em}
-h3{font-size: 3.5em; font-family: 'Bebas Neue', cursive;}
+h3{font-size: 3.5em;}
 p{font-size: 1.25em;}
-li{font-size: 1.25em;   text-align: left; padding-left: 6em;}
+  
 
 button{
-    font-size: 1.5em;
+     font-size: 1.5em;
     font-weight: bolder;
     padding: 10px 20px;
     border-radius: 10px;
@@ -25,42 +27,40 @@ button{
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     color: aliceblue;
     cursor: pointer;
-
-}
+}  
 
 button:hover{
     background-color: #666AA3;
 }
 
+
 .container{
-    max-width: 1400px; ;
-    margin: auto;
+      max-width: 1400px; ;
+      margin: auto;
 }
-
+  
 header{
-    background-color: #519969;
+      background-color: #519969;
 }
-
+  
 header .logo{
     max-width: 200px;
     padding: 25px;
-
 }
-
+  
 header .container{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+  
 header .nav{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding-bottom: 25px ;
-    
+    padding-bottom: 25px ;     
 }
-
+  
 header a{
     padding: 5px 12px;
     text-decoration: none;
@@ -68,14 +68,10 @@ header a{
     color: aliceblue;
     text-shadow: black 0.1em 0.1em 0.2em
 }
-
+  
 a:hover {
-    color: #f0a309;
-    
-    
+    color: #f0a309;    
 }
-
-
 
 
 #contenido .container{
@@ -89,21 +85,6 @@ a:hover {
     border-radius: 15px;
     text-align: center;
 }
-#integrantes {
-    text-align: center;
-    padding: 50px 12px;
-    background-color: #ffffff;
-}
-
-#integrantes h2{
-    color: #519969;
-    text-align: center;
-    text-shadow: none;
-}
-
-
-
-
 
 #secciones-ayuda {
     background-color:#519969;
@@ -124,10 +105,11 @@ a:hover {
 }
 
 #secciones-ayuda .carta1{
-    background-image: url("/img/perroshp1.png");
+    background-image: url("/img/ARCANO.jpg");
     background-color: white;
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     padding: 6em;
     border-radius: 15px;
     margin: 25px;
@@ -137,12 +119,24 @@ a:hover {
 }
 
 #secciones-ayuda .carta2{
-    background-image: url("/img/gatoshp1.png");
+    background-image: url("/img/LOBO.jpg");
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding: 6em;
+    margin: 25px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+#secciones-ayuda .carta3{
+    background-image: url("/img/DOKI.jpg");
     background-color: white;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-size: contain;
     padding: 6em;
     margin: 25px;
     border-radius: 15px;
@@ -152,8 +146,6 @@ a:hover {
 
 @media (min-width: 720px) {
     header{
-        position: fixed;
-        width: 100%;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     }
 
@@ -167,20 +159,15 @@ a:hover {
         flex-direction: row;
         padding-bottom: 0;
     }
-    
+
     header .logo{
         max-width: 90px;
         padding: 0px;
     }
+
     
-    #contenido{
-        padding-top: 70px;
-
-
-    }
-
     #contenido .img-container{
-        background-image: url("/img/logopeludo.png");
+        background-image: url("/img/soloperro.png");
         background-size: contain;
         background-position: center center;
         background-repeat: no-repeat;
@@ -198,11 +185,13 @@ a:hover {
         flex-direction: row;
     }
 
-
     #secciones-ayuda .carta1{
         width: 50em;
     }
     #secciones-ayuda .carta2{
+        width: 50em;
+    }
+    #secciones-ayuda .carta3{
         width: 50em;
     }
 
@@ -211,25 +200,5 @@ a:hover {
         display: flex;
         justify-content: center;
     }
-    
-    
-    #integrantes .img-container{
-        background-image: url("/img/vet.jpg");
-        background-size: contain;
-        background-position: center center;
-        background-repeat: no-repeat;
-        width: 600px;
-    }
-    
-    #integrantes .container {
-        display: flex;
-        flex-direction: row;
-        padding: 0;
-    }
-    
-
-    #integrantes .texto{
-        padding-left: 10em;
-    }
 }
- 
+  
