@@ -226,3 +226,86 @@ a:hover {
 #integrantes .texto{
     display: none;
 }
+
+.textPE{
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: rgba(0, 0, 0, 0.535) 0.1em 0.1em 0.2em;
+    width: 722px;
+    height: 208px;
+    left: 380px;
+    top: 60px;
+
+    font-weight: 400;
+    font-size: 4em;
+    line-height: 115px;
+    text-align: center;
+
+    color: #FFFFFF;
+    background-color: #519969;
+    border-radius: 15px;
+    text-align: center;
+    height: 110px;
+
+}
+
+.Ptext{
+    position: absolute;
+    text-align: center;
+    width: 1200px;
+    left: 160px;
+    top: 230px;
+}
+
+.textPE2{
+    position: absolute;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5em;
+    height: 208px;
+    left: 400px;
+    top: 300px;
+
+}
+
+.fotos{
+    align-items: center;
+}
+
+.lobo{
+    position: absolute;
+    height: 208px;
+    left: 280px;
+    top: 500px;
+}
+.doki{
+    position: absolute;
+    height: 208px;
+    left: 280px;
+    top: 750px;
+}
+
+.arcano{
+    position: absolute;
+    height: 208px;
+    left: 280px;
+    top: 1000px;
+}
+
+.Blobo{
+    position: absolute;
+    left: 500px;
+    top: 590px;
+
+}
+
+.Bdoki{
+    position: absolute;
+    left: 580px;
+    top: 840px;
+}
+
+.Barcano{
+    position: absolute;
+    left: 500px;
+    top: 1090px;
+}
