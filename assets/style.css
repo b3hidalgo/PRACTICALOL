@@ -38,10 +38,6 @@ button:hover{
 
 header{
     background-color: #519969;
-    position: fixed;
-    width: 100%;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-
 }
 
 header .logo{
