@@ -1,5 +1,7 @@
 
-
+html {
+    scroll-behavior: smooth;
+  }
 *{
     box-sizing: border-box;
 }
@@ -13,7 +15,7 @@ h2{font-size: 4em; font-family: 'Bebas Neue', cursive;
     text-shadow: rgba(0, 0, 0, 0.535) 0.1em 0.1em 0.2em}
 h3{font-size: 3.5em; font-family: 'Bebas Neue', cursive;}
 p{font-size: 1.25em;}
-li{font-size: 1.25em;   text-align: left; padding-left: 6em;}
+li{font-size: 1.25em;   text-align: center;}
 
 button{
     font-size: 1.5em;
@@ -225,6 +227,8 @@ a:hover {
         display: flex;
         flex-direction: row;
         padding: 0;
+        height: 100%;
+        width: 100%;
     }
     
 
